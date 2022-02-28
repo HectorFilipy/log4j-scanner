@@ -4,13 +4,13 @@
 #  Ele faz a varredura recursivamente no disco e nos arquivos Java Archive (JARs).
 #
 #  Exemplo de uso para scanear um path (por padrão /):
-#      $ python3 log4j-finder.py /caminho/do/scan
+#      $ python3 log4j-scanner.py /caminho/do/scan
 #
 #  Ou diretamente um arquivo JAR:
-#      $ python3 log4j-finder.py /caminho/do/jarfile.jar
+#      $ python3 log4j-scanner.py /caminho/do/jarfile.jar
 #
 #  Ou Mutiplos diretórios:
-#      $ python3 log4j-finder.py /caminho/do/dir1 /caminho/do/dir2
+#      $ python3 log4j-scanner.py /caminho/do/dir1 /caminho/do/dir2
 #
 #
 import os
